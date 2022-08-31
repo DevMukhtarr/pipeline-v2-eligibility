@@ -1,0 +1,32 @@
+{
+  "name": "pipeline-tql",
+  "version": "1.0.0",
+  "description": "Build and deploy a very simple API that does the following",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevMukhtarr/pipeline-tql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevMukhtarr/pipeline-tql/issues"
+  },
+  "homepage": "https://github.com/DevMukhtarr/pipeline-tql#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "type": "module"
+}
