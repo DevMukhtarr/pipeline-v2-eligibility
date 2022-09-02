@@ -11,7 +11,7 @@ export const calculateAge = async(req, res) =>{
     const dateOfBirth = await query.dob
 
     const current_year = new Date().getFullYear()
-    const user_year = new Date(parseInt(dateOfBirth)).getFullYear()
+    const user_year = new Date(dateOfBirth).getFullYear()
 
     const user_age = current_year - user_year;
     
